@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative min-h-screen bg-[#040404] overflow-hidden"
+      className="relative bg-[#040404] overflow-hidden"
       id="home"
     >
       {/* Decorative Elements */}
