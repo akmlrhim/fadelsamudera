@@ -133,22 +133,6 @@ const Portfolio = () => {
               </button>
             </>
           )}
-
-          {/* Mobile Dots Indicator */}
-          {isMobile && (
-            <div className="flex justify-center gap-2 mt-6">
-              {portfolios.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => scrollToSlide(index)}
-                  className={`h-2 rounded-full transition-all duration-300 ${
-                    currentSlide === index ? "bg-[#d4ac3c] w-8" : "bg-[#d4ac3c]/30 w-2"
-                  }`}
-                  aria-label={`Go to slide ${index + 1}`}
-                />
-              ))}
-            </div>
-          )}
         </div>
 
         {/* CTA */}
