@@ -1,4 +1,16 @@
-import { Mail, Phone, MapPin, Linkedin, Instagram, Facebook, Youtube, Twitter, ArrowUp } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Linkedin,
+  Instagram,
+  Facebook,
+  Youtube,
+  Twitter,
+  ArrowUp,
+  Globe,
+  Music,
+} from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -23,11 +35,9 @@ const Footer = () => {
   ];
 
   const socialMedia = [
-    { icon: <Linkedin size={20} />, href: "#", label: "LinkedIn" },
-    { icon: <Instagram size={20} />, href: "#", label: "Instagram" },
-    { icon: <Facebook size={20} />, href: "#", label: "Facebook" },
-    { icon: <Youtube size={20} />, href: "#", label: "YouTube" },
-    { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
+    { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/fadelsamudera", label: "LinkedIn" },
+    { icon: <Instagram size={20} />, href: "https://www.instagram.com/fadelsamudera", label: "Instagram" },
+    { icon: <Globe size={20} />, href: "https://www.impostmedia.com", label: "Website" },
   ];
 
   return (

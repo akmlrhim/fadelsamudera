@@ -308,7 +308,7 @@ const Contact = () => {
               <h4 className="text-base font-bold text-white mb-4">Connect on Social</h4>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/fadelsamudera"
                   className="flex-1 p-4 rounded-xl flex items-center justify-center transition-all hover:scale-110"
                   style={{ backgroundColor: "#1a1a1a" }}
                   onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#d4ac3c")}
@@ -317,7 +317,7 @@ const Contact = () => {
                   <Linkedin className="w-5 h-5 text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/fadelsamudera"
                   className="flex-1 p-4 rounded-xl flex items-center justify-center transition-all hover:scale-110"
                   style={{ backgroundColor: "#1a1a1a" }}
                   onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#d4ac3c")}
@@ -326,7 +326,7 @@ const Contact = () => {
                   <Instagram className="w-5 h-5 text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.impostmedia.com"
                   className="flex-1 p-4 rounded-xl flex items-center justify-center transition-all hover:scale-110"
                   style={{ backgroundColor: "#1a1a1a" }}
                   onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#d4ac3c")}
