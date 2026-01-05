@@ -1,6 +1,5 @@
 import { ArrowRight, Award, TrendingUp, UserCheck, Users } from "lucide-react";
-import ceoPic from "../../assets/fadelsamudera.jpeg";
-import React from "react";
+import ceoPic from "../../assets/fadelsamudera.webp";
 
 const Hero = () => {
   const stats = [
@@ -96,6 +95,7 @@ const Hero = () => {
             <div className="relative h-full flex items-center justify-center">
               <div className="w-full h-full">
                 <img
+                  loading="lazy"
                   src={ceoPic}
                   alt="CEO Professional Photo"
                   className="w-full h-full object-cover"

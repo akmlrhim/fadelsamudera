@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import {
   ChevronDown,
   Building2,
-  User,
-  GraduationCap,
   MessageSquare,
   BarChart3,
   Users,
