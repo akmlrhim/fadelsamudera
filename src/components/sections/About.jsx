@@ -1,22 +1,8 @@
-import React from "react";
-import { Target, TrendingUp, Users, Award, Briefcase, GraduationCap } from "lucide-react";
+import { TrendingUp, GraduationCap } from "lucide-react";
+import { achievements } from "../../data/achievement";
+import { expertise } from "../../data/expertise";
 
 const About = () => {
-  const achievements = [
-    { icon: <Briefcase size={20} />, text: "CEO & Founder CV Impost Media Indonesia" },
-    { icon: <Users size={20} />, text: "Memimpin puluhan karyawan & tim profesional" },
-    { icon: <Award size={20} />, text: "Top 40 Startup Indonesia dari Kalimantan" },
-    { icon: <Target size={20} />, text: "Fokus pada kenaikan omzet nyata" },
-  ];
-
-  const expertise = [
-    "Meta Ads & Digital Advertising",
-    "CRM & ERP Implementation",
-    "High-Converting Funnel",
-    "Content Strategy & Viral Marketing",
-    "Marketplace Optimization",
-  ];
-
   return (
     <section
       id="about"
@@ -144,23 +130,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
-        <style jsx>{`
-          @keyframes marquee {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
-          }
-          .animate-marquee {
-            animation: marquee 30s linear infinite;
-          }
-          .animate-marquee:hover {
-            animation-play-state: paused;
-          }
-        `}</style>
       </div>
     </section>
   );

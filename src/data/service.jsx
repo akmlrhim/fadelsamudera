@@ -1,7 +1,7 @@
 import { Building2, MessageSquare, BarChart3, Users, Presentation, Handshake, BookOpen } from "lucide-react";
 
 export const impostService = {
-  icon: <Building2 size={48} />,
+  icon: <Building2 size={32} />,
   title: "Layanan Impost Media",
   description: "Agensi digital marketing dengan fokus pada hasil omzet nyata",
   details:
@@ -41,22 +41,23 @@ export const personalServices = [
     subtitle: "Authority & Exposure",
     description: "Seminar, workshop & in-house training",
     details:
-      "Topik meliputi digital marketing berbasis sistem, growth mindset, risk & decision making, dan scale tanpa menghancurkan cashflow.",
+      "Topik meliputi digital marketing berbasis sistem, growth mindset, risk & decision making, dan scale tanpa menghancurkan cashflow. Untuk korporat, institusi, kampus & komunitas bisnis.",
   },
   {
     icon: <Handshake size={32} />,
     title: "Strategic Partnership",
     subtitle: "Selective – Case by Case",
     description: "Joint project & revenue sharing",
-    details: "Kolaborasi strategis untuk investor, mitra ekspansi, atau bisnis yang ingin JV.",
+    details:
+      "Kolaborasi strategis untuk investor, mitra ekspansi, atau bisnis yang ingin JV. Bentuk dapat berupa equity-based, revenue sharing, atau advisory + execution via Impost Media.",
   },
 ];
 
 export const educationService = {
-  icon: <BookOpen size={48} />,
+  icon: <BookOpen size={32} />,
   title: "Kolaborasi Akademik & Industri",
   subtitle: "Academic–Industry Collaboration",
   description: "Program kolaborasi institusi pendidikan dengan industri",
   details:
-    "Praktisi industri sebagai pengajar, penyelarasan kurikulum berbasis industri, project terapan, dan pengembangan kompetensi.",
+    "Praktisi industri sebagai pengajar, penyelarasan kurikulum berbasis industri, project terapan, dan pengembangan kompetensi. Menciptakan lulusan yang siap kerja, siap berpikir, dan siap bertanggung jawab.",
 };
