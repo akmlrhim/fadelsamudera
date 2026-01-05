@@ -48,10 +48,6 @@ const ArticleCard = ({ item, index, hoveredIndex, setHoveredIndex }) => {
             <Calendar size={14} />
             <span>{item.date}</span>
           </div>
-          <div className="flex items-center space-x-1">
-            <Clock size={14} />
-            <span>{item.readTime}</span>
-          </div>
         </div>
       </div>
     </a>

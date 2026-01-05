@@ -26,7 +26,6 @@ const Article = () => {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
       category: "Digital Marketing",
       date: "15 Des 2024",
-      readTime: "5 menit",
     },
     {
       title: "Kesalahan Fatal dalam Meta Ads yang Membuat Budget Boncos",
@@ -34,7 +33,6 @@ const Article = () => {
       image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
       category: "Paid Advertising",
       date: "10 Des 2024",
-      readTime: "7 menit",
     },
     {
       title: "Data-Driven Decision: Jangan Asal Ikut Tren",
@@ -42,7 +40,6 @@ const Article = () => {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
       category: "Business Strategy",
       date: "5 Des 2024",
-      readTime: "6 menit",
     },
     {
       title: "Scale Bisnis Tanpa Menghancurkan Cashflow",
@@ -50,7 +47,6 @@ const Article = () => {
       image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=600&fit=crop",
       category: "Growth Strategy",
       date: "28 Nov 2024",
-      readTime: "8 menit",
     },
     {
       title: "Funnel Marketing: Dari Awareness hingga Loyalitas",
@@ -58,7 +54,6 @@ const Article = () => {
       image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
       category: "Digital Marketing",
       date: "20 Nov 2024",
-      readTime: "10 menit",
     },
     {
       title: "UMKM Go Digital: Langkah Praktis untuk Pemula",
@@ -66,7 +61,6 @@ const Article = () => {
       image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop",
       category: "UMKM Tips",
       date: "15 Nov 2024",
-      readTime: "5 menit",
     },
   ];
 
