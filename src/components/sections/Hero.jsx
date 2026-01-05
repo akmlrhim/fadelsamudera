@@ -42,15 +42,18 @@ const Hero = () => {
 
             {/* Main Heading */}
             <div className="space-y-3 sm:space-y-4">
-              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white leading-tight">
-                Transforming
-                <span className="block text-[#d4ac3c]">Brands Into</span>
-                Digital Leaders
+              <h1 className="text-xl sm:text-2xl lg:text-4xl font-bold text-white leading-tight">
+                Saya membantu perusahaan dan pemilik bisnis
+                <span className="block text-[#d4ac3c] mt-1.5">menaikkan omset 2–3× lipat</span>
+                <span className="block text-white mt-1">dengan digital marketing dalam 90 hari.</span>
               </h1>
-              <p className="text-gray-400 text-sm sm:text-base lg:text-lg leading-relaxed max-w-lg">
-                Strategic digital marketing solutions that drive measurable growth and build lasting connections with
-                your audience.
-              </p>
+              <div className="space-y-2 pt-2">
+                <p className="text-gray-400 text-sm sm:text-base font-medium">Bukan dengan trik instan.</p>
+                <p className="text-gray-300 text-sm sm:text-base leading-relaxed max-w-2xl">
+                  Tapi dengan sistem digital marketing, keputusan strategis berbasis data, dan proses ketat yang tidak
+                  semua bisnis sanggup jalani.
+                </p>
+              </div>
             </div>
 
             {/* CTA Buttons */}
@@ -59,14 +62,14 @@ const Hero = () => {
                 href="#contact"
                 className="group inline-flex items-center justify-center px-6 py-3 bg-[#d4ac3c] text-[#040404] text-sm sm:text-base font-semibold tracking-wide hover:bg-[#c49a2f] transition-all duration-300"
               >
-                Start Your Journey
+                Mulai Konsultasi
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
                 href="#portfolio"
                 className="inline-flex items-center justify-center px-6 py-3 border border-[#d4ac3c] text-[#d4ac3c] text-sm sm:text-base font-semibold tracking-wide hover:bg-[#d4ac3c]/10 transition-all duration-300"
               >
-                View Portfolio
+                Lihat Portfolio
               </a>
             </div>
 
@@ -96,13 +99,14 @@ const Hero = () => {
                 <img
                   loading="lazy"
                   src={ceoPic}
-                  alt="CEO Professional Photo"
+                  alt="Fadel Samudera - CEO Professional Photo"
                   className="w-full h-full object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#040404]/80 via-transparent to-transparent"></div>
               </div>
             </div>
 
+            {/* CEO Info Card */}
             <div className="absolute bottom-4 left-4 sm:bottom-8 sm:left-0 bg-[#040404] border border-[#d4ac3c]/30 p-4 shadow-xl max-w-[240px] sm:max-w-xs">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#d4ac3c] flex items-center justify-center shrink-0">
@@ -110,7 +114,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="text-white text-sm sm:text-base font-semibold leading-tight">Fadel Samudera</div>
-                  <div className="text-gray-400 text-[10px] sm:text-xs mt-0.5">CEO CV.Impost Media Indonesia</div>
+                  <div className="text-gray-400 text-[10px] sm:text-xs mt-0.5">CEO CV. Impost Media Indonesia</div>
                 </div>
               </div>
             </div>

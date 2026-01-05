@@ -70,7 +70,7 @@ const Services = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 text-[#d4ac3c] hover:text-[#c49a2f] font-semibold text-sm sm:text-base transition-colors mt-2"
                 >
-                  <span>Kunjungi Website Impost Media</span>
+                  <span>Kunjungi Website</span>
                   <ExternalLink size={16} />
                 </a>
               </div>
@@ -115,7 +115,7 @@ const Services = () => {
                   <div
                     key={index}
                     className="rounded-lg border border-[#d4ac3c]/30 bg-[#d4ac3c]/5 hover:bg-[#d4ac3c]/10 transition-all duration-300"
-                    style={{ width: "280px", flexShrink: 0, scrollSnapAlign: "center" }}
+                    style={{ width: "360px", flexShrink: 0, scrollSnapAlign: "center" }}
                   >
                     <div className="p-5 space-y-3 h-full flex flex-col">
                       <div className="text-[#d4ac3c] scale-90 origin-left">{service.icon}</div>
@@ -151,20 +151,6 @@ const Services = () => {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Indicators */}
-            <div className="flex justify-center mt-6 space-x-2">
-              {personalServices.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => scrollToSlide(index)}
-                  className={`h-2 rounded-full transition-all duration-300 ${
-                    currentSlide === index ? "w-8 bg-[#d4ac3c]" : "w-2 bg-[#d4ac3c]/30 hover:bg-[#d4ac3c]/50"
-                  }`}
-                  aria-label={`Go to slide ${index + 1}`}
-                />
-              ))}
             </div>
           </div>
 
