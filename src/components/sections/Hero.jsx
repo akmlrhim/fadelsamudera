@@ -10,7 +10,10 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative min-h-screen bg-[#040404] flex items-center overflow-hidden">
+    <section
+      className="relative min-h-screen bg-[#040404] flex items-center overflow-hidden"
+      id="home"
+    >
       {/* Decorative Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 right-10 w-72 h-72 bg-[#d4ac3c]/5 rounded-full blur-3xl"></div>
