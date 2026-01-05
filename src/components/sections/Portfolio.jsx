@@ -52,21 +52,21 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="bg-[#040404] py-16 lg:py-24"
+      className="bg-[#040404] py-12 lg:py-20"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="max-w-3xl mb-12">
-          <div className="inline-flex items-center space-x-2 px-4 py-2 border border-[#d4ac3c]/30 bg-[#d4ac3c]/5 mb-6 rounded">
-            <span className="text-[#d4ac3c] text-sm font-medium tracking-wide">Portfolio</span>
+        <div className="max-w-3xl mb-10 lg:mb-12">
+          <div className="inline-flex items-center space-x-2 px-3 py-1.5 border border-[#d4ac3c]/30 bg-[#d4ac3c]/5 mb-4">
+            <span className="text-[#d4ac3c] text-xs sm:text-sm font-medium tracking-wide">Portfolio</span>
           </div>
 
-          <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-3">
             Hasil Nyata yang
             <span className="block text-[#d4ac3c]">Berhasil Dicapai</span>
           </h2>
-          <div className="w-20 h-1 bg-[#d4ac3c] mb-6"></div>
-          <p className="text-gray-400 text-lg">
+          <div className="w-16 h-1 bg-[#d4ac3c] mb-4"></div>
+          <p className="text-gray-400 text-sm sm:text-base lg:text-lg">
             Bukan sekadar angka, tapi cerita nyata tentang pertumbuhan bisnis yang terukur
           </p>
         </div>
@@ -96,7 +96,7 @@ const Portfolio = () => {
           </div>
 
           {/* Desktop Grid */}
-          <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {portfolios.map((item, index) => (
               <PortfolioCard
                 key={index}
@@ -113,17 +113,23 @@ const Portfolio = () => {
             <>
               <button
                 onClick={prevSlide}
-                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-[#d4ac3c] text-[#040404] p-2 rounded-full shadow-lg hover:bg-[#c49a2f] transition-colors z-10"
+                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 bg-[#d4ac3c] text-[#040404] p-2 rounded-full shadow-lg hover:bg-[#c49a2f] transition-colors z-10"
                 aria-label="Previous slide"
               >
-                <ChevronLeft size={24} />
+                <ChevronLeft
+                  size={20}
+                  className="sm:w-6 sm:h-6"
+                />
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-[#d4ac3c] text-[#040404] p-2 rounded-full shadow-lg hover:bg-[#c49a2f] transition-colors z-10"
+                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 bg-[#d4ac3c] text-[#040404] p-2 rounded-full shadow-lg hover:bg-[#c49a2f] transition-colors z-10"
                 aria-label="Next slide"
               >
-                <ChevronRight size={24} />
+                <ChevronRight
+                  size={20}
+                  className="sm:w-6 sm:h-6"
+                />
               </button>
             </>
           )}
@@ -135,8 +141,8 @@ const Portfolio = () => {
                 <button
                   key={index}
                   onClick={() => scrollToSlide(index)}
-                  className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                    currentSlide === index ? "bg-[#d4ac3c] w-6" : "bg-[#d4ac3c]/30"
+                  className={`h-2 rounded-full transition-all duration-300 ${
+                    currentSlide === index ? "bg-[#d4ac3c] w-8" : "bg-[#d4ac3c]/30 w-2"
                   }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />
@@ -146,11 +152,13 @@ const Portfolio = () => {
         </div>
 
         {/* CTA */}
-        <div className="mt-12 text-center border-t border-[#d4ac3c]/20 pt-12">
-          <p className="text-gray-400 text-lg mb-6">Ingin hasil serupa untuk bisnis Anda?</p>
+        <div className="mt-10 sm:mt-12 text-center border-t border-[#d4ac3c]/20 pt-8 sm:pt-10">
+          <p className="text-gray-400 text-sm sm:text-base lg:text-lg mb-4 sm:mb-6">
+            Ingin hasil serupa untuk bisnis Anda?
+          </p>
           <a
             href="#contact"
-            className="inline-flex items-center px-8 py-4 bg-[#d4ac3c] text-[#040404] font-semibold tracking-wide hover:bg-[#c49a2f] transition-all duration-300 rounded-lg"
+            className="inline-flex items-center px-6 py-3 bg-[#d4ac3c] text-[#040404] text-sm sm:text-base font-semibold tracking-wide hover:bg-[#c49a2f] transition-all duration-300 rounded"
           >
             Diskusikan Bisnis Anda
           </a>
