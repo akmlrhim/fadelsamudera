@@ -115,7 +115,7 @@ const Services = () => {
                   <div
                     key={index}
                     className="rounded-lg border border-[#d4ac3c]/30 bg-[#d4ac3c]/5 hover:bg-[#d4ac3c]/10 transition-all duration-300"
-                    style={{ width: "360px", flexShrink: 0, scrollSnapAlign: "center" }}
+                    style={{ width: "280px", flexShrink: 0, scrollSnapAlign: "center" }}
                   >
                     <div className="p-5 space-y-3 h-full flex flex-col">
                       <div className="text-[#d4ac3c] scale-90 origin-left">{service.icon}</div>
