@@ -3,7 +3,7 @@ import { Building2, MessageSquare, BarChart3, Users, Presentation, Handshake, Bo
 export const impostService = {
   icon: <Building2 size={32} />,
   title: "Layanan Impost Media",
-  description: "Agensi digital marketing dengan fokus pada hasil omzet nyata",
+  description: "Agensi digital marketing dengan fokus pada hasil omset nyata",
   details:
     "Full-service digital marketing agency yang berani mengikat pekerjaan pada hasil. Mulai dari strategy, execution, hingga reporting transparan dengan jaminan uang kembali bila target tidak tercapai.",
   link: "https://impostmedia.com/",

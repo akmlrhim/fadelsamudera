@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronDown, ExternalLink } from "lucide-react";
 import { personalServices, impostService, educationService } from "../../data/service";
 
@@ -155,7 +155,7 @@ const Services = () => {
           <p className="text-gray-400 text-lg mb-6">Tertarik dengan layanan yang saya tawarkan?</p>
           <a
             href="#contact"
-            className="inline-flex items-center px-8 py-4 bg-[#d4ac3c] text-[#040404] font-semibold tracking-wide hover:bg-[#c49a2f] transition-all duration-300"
+            className="inline-flex items-center px-8 py-4 bg-[#d4ac3c] text-[#040404] font-semibold tracking-wide hover:bg-[#c49a2f] transition-all duration-300 rounded-lg"
           >
             Ajukan Diskusi Strategis
           </a>

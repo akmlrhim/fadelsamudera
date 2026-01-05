@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Mail, Phone, Linkedin, Instagram, MessageCircle, Globe, ArrowRight } from "lucide-react";
 
 const Contact = () => {

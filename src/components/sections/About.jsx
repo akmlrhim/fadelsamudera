@@ -25,7 +25,7 @@ const About = () => {
             <p className="text-lg">
               CEO & konsultan digital marketing yang bekerja lintas industri dan lintas kota di Indonesia. Pendiri{" "}
               <span className="text-[#d4ac3c] font-semibold">CV Impost Media Indonesia</span>, agensi yang berani
-              mengikat pekerjaannya pada hasil omzet dengan jaminan uang kembali bila target tidak tercapai.
+              mengikat pekerjaannya pada hasil omset dengan jaminan uang kembali bila target tidak tercapai.
             </p>
             <p>
               Di Balikpapan, berada di level direksi & strategi untuk bisnis pengadaan barang & jasa serta event

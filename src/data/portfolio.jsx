@@ -5,7 +5,7 @@ export const portfolios = [
     title: "CitraLand Banjarmasin",
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
     description: "Strategi digital marketing & Meta Ads untuk project properti premium",
-    stats: "7M+ omzet dengan budget iklan 30 juta",
+    stats: "7M+ omset dengan budget iklan 30 juta",
     icon: <TrendingUp size={20} />,
   },
   {
@@ -40,7 +40,7 @@ export const portfolios = [
     title: "UMKM Binaan BUMN",
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop",
     description: "Pelatihan & pendampingan digital marketing di Rumah BUMN",
-    stats: "Ratusan UMKM terbantu meningkatkan omzet",
+    stats: "Ratusan UMKM terbantu meningkatkan omset",
     icon: <Users size={20} />,
   },
 ];

@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed">
-              CEO & Konsultan Digital Marketing yang fokus pada hasil omzet nyata dan pertumbuhan bisnis berkelanjutan.
+              CEO & Konsultan Digital Marketing yang fokus pada hasil omset nyata dan pertumbuhan bisnis berkelanjutan.
             </p>
 
             {/* Social Media */}
